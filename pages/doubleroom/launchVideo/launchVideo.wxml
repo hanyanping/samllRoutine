@@ -1,0 +1,29 @@
+<!--pages/doubleroom/roomname/roomname.wxml-->
+<view class='container-box'>
+    <view class='tips'>
+      <image class='mainLogo' mode="widthFix" src='../../Resources/launchLogo.png'></image>
+   </view>
+    <view class='launchTitle'>请输入案件信息发起自助理赔：</view>
+    <view class='inputBox' style='display:flex;padding-right: 5px;'>
+      <text class='inputText'>京</text>
+      <text class='linebox'></text>
+      <input style="margin-top: 5px;" type='text' placeholder='请输入报案车辆车牌号'/>
+    </view>
+    <view class='inputBox'>
+      <input type='tel' maxlength="11" placeholder='请输入报案人手机号'/>
+    </view>
+    <view class='bottom-btn'> 
+      <button type="primary" style="background-color:#2EAB3B;" bindtap="create" hover-class="none">发起视频查勘</button>
+      <view class='warm'>温馨提示：车险理赔前请先拨打保险公司电话进行报案</view>
+    </view>   
+</view>
+
+<!-- <view class='bottom-btn'> 
+  <button type="primary" bindtap="create" hover-class="none">创建并自动加入该会话</button>
+</view>  -->
+<view>
+<toast hidden="{{toastHidden}}" duration="1000" bindchange="onToastChanged">    
+        {{toastText}}    
+</toast>
+</view>
+ 

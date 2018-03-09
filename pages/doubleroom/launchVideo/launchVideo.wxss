@@ -1,0 +1,85 @@
+/* pages/doubleroom/roomname/roomname.wxss */
+.container-box {
+  background-color: #fff;
+  height: 100vh;
+}
+.tips{
+  position: relative;
+  margin-bottom: 10px;
+  
+}
+.tips .mainLogo{
+  width: 100%;
+
+}
+.linebox{
+  display:inline-block;
+  height:30px;
+  width: 3px;
+  background: #f4f4f4;
+  margin: 5px;
+}
+.launchTitle{
+  font-weight: 800;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.inputBox{
+  border-bottom: 1px solid #f4f4f4;
+  padding: 15px 30px;
+}
+.inputText{
+  display:inline-block;
+  background: #2EAB3B;
+  color: #fff;
+  height:35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+  margin-right: 5px;
+}
+.inputBox input{
+   display:inline-block;
+   color: #666;
+}
+.warm{
+  color: #bbb;
+  text-align: center;
+  margin: 20px;
+}
+.mainToptext{
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  top:10vh;
+  color: #fff;
+  padding-left: 35px;
+}
+.mainHeadtext{
+  position: absolute;
+   top:16vh;
+   padding-left: 45px;
+   color: #fff;
+   font-size: 16px;
+   line-height:30px;
+}
+.extext {
+  font-size: 13px;
+  color: #999;
+  padding: 2vw 5vw;
+}
+.input-box {
+  background-color: #4a4a4a;
+  color: #acacac;
+  padding: 3vw 5vw;
+}
+.bottom-btn {
+  position: fixed;
+  width: 90vw;
+  left: 5vw;
+  bottom: 3vh;
+}
+.bottom-btn button {
+   background-color: #1da664;
+ }

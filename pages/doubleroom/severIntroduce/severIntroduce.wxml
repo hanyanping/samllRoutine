@@ -1,0 +1,13 @@
+
+ <view class="mainUI"> 
+    <view class='tips'>
+      <image class='mainLogo' mode="widthFix" src='../../Resources/severlogo.png'></image>
+   </view>
+  <view class='videoBox'>
+    <video src='../../Resources/WeChat_20180301131800.mp4'></video>
+  </view>
+  <view class='warmText'>
+    <text>
+    好e赔车险理赔平台致力打造车险自助理赔第一入口，在您发生交通事故后，请先拨打保险公司报案电话进行报案，然后按提示使用好e赔进行在线理赔。          </text>
+  </view>
+</view>

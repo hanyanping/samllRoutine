@@ -1,0 +1,45 @@
+<!--pages/main/main.wxml-->
+ <!-- <view class="mainUI"  style="background-image: url(/pages/Resources/bg.png);">  -->
+ <view class="mainUI"> 
+    <view class='tips'>
+      <image class='mainLogo' mode="widthFix" src='../Resources/logo.png'></image>
+   </view>
+
+    <view class='tips claimBox'>
+      <image class='selfClaims' mode="widthFix" src='../Resources/selfClaims.png'></image>
+      <view class="mainTop">自助理赔</view>
+      <view class='mainHead'>
+          <text>快捷 - 舒心</text>
+      </view>
+      <view  bindtap='todoubleroom' class="buttonText openClaim">开启理赔</view>
+   </view>  
+
+    <!-- <view class='tips claimBox'>
+      <image class='selfClaims' mode="widthFix" src='../Resources/serverProduce.png'></image>
+       <view class="mainTop">服务介绍</view> 
+       <view class="buttonText" bindtap='gotoServe'>了解我们</view> 
+    </view>
+
+    <view class='tips claimBox'>
+      <image class='selfClaims' mode="widthFix" src='../Resources/myClaims.png'></image>
+       <view class="mainTop">我的理赔</view> 
+       <view class="buttonText" bindtap='gotoMycliam'>个人中心</view> 
+   </view>  -->
+    <view class='tips claimBox' wx:for='{{imgArray}}'>
+      <image class='selfClaims' mode="widthFix" src='{{item.imgUrl}}'></image>
+       <view class="mainTop">{{item.title}}</view> 
+       <view class='mainHead'>
+          <text>{{item.tip}}</text>
+      </view> 
+       <view class="buttonText" id='{{item.linkUrl}}' bindtap='gotolink'>{{item.text}}</view> 
+   </view>  
+    
+
+
+  <!-- <view class='inputBox'>
+    <lable class="lableText">手机号:</lable> <input bindinput ="userPhoneInput" maxlength='11' class="inputtelBox" type="tel" placeholder='请输入手机号' maxlenth="11"/>
+    
+  </view>
+  <view class='buttonBox'>
+  <button class="loginIn" bindtap='todoubleroom'>登陆</button></view> -->
+</view>

@@ -1,0 +1,148 @@
+/* pages/main/main.wxss */
+.mainUI {
+  width: 100%;
+   /* background-image: url(../Resources/logo.png);
+    background-color: #f4f4f4; 
+   background-repeat:no-repeat; 
+    background-size: cover;     */
+  margin: 0;
+  padding: 0;
+}
+.tips{
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+.tips .mainLogo{
+  width: 100%;
+
+}
+.claimBox{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.selfClaims{
+  width: 100%;
+}
+.mainToptext{
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  top:10vh;
+  color: #fff;
+  padding-left: 35px;
+}
+.mainHeadtext{
+  position: absolute;
+   top:16vh;
+   padding-left: 45px;
+   color: #fff;
+   font-size: 16px;
+   line-height:30px;
+}
+.mainTop{
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top:15px;
+  color: #fff;
+  padding-left: 35px;
+}
+.mainHead{
+  position: absolute;
+   top:45px;
+   padding-left: 45px;
+   color: #fff;
+   font-size: 16px;
+   line-height:30px;
+}
+.buttonText{
+  border: 1px solid #fff;
+  border-radius: 22px;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  padding: 6px 12px;
+  text-align: center;
+  margin-left: 35px;
+}
+.openClaim{
+  top: 84px;
+}
+.inputBox{
+  display:flex;
+  margin: 10vw 20px;
+}
+.buttonBox{
+  margin-top: 20vw;
+}
+.lableText{
+  display:inline-block;
+  line-height: 35px;
+  padding-right:8px;
+}
+.inputtelBox{
+  height:35px;
+  border:1px solid #bbb;
+  width: 60vw;
+  text-align: left;
+  text-indent: 3px;
+  border-radius: 6px;
+}
+.loginIn{
+  color:#fff;
+  background: #35A0FF;
+  width: 80vw;
+
+}
+.guide-box {
+  text-align: center;
+}
+.guide {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  background-color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  margin: 1.5px;
+  vertical-align: top;
+}
+.guide-nomore {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  text-align: center;
+  margin: 1.5px;
+  vertical-align: top;
+}
+.guide-nomore-bk {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.guide_icon {
+  display: block;
+  width: 36px; 
+  height: 36px; 
+  margin:20px auto 0;
+}
+.guide_label {
+  display: block;
+  margin-top: 10px;
+  color: #CFE4FF;
+  font-size: 14px;
+}
+.guide_nomore_label {
+  margin-top: 30px;
+  color: rgba(256, 256, 256, 0.3);
+  font-size: 14px;
+}
+.logo-box {
+  position: absolute;
+  width: 100vw;
+  bottom: 36rpx;
+  text-align: center;
+}
+.logo {
+  width: 100vw;
+  height: 100%;
+}

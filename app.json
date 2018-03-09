@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/push/push",
+    "pages/play/play",
+    "pages/vodplay/vodplay",
+    "pages/rtplay/rtplay",
+    "pages/doubleroom/launchVideo/launchVideo",
+    "pages/doubleroom/myCliam/myCliam",
+    "pages/doubleroom/severIntroduce/severIntroduce",
+    "pages/doubleroom/roomlist/roomlist",
+    "pages/doubleroom/room/room",
+    "pages/doubleroom/roomname/roomname"
+  ],
+  "networkTimeout": {
+    "request": 60000
+  },
+  "window": {
+    "backgroundColor": "#888",
+    "backgroundTextStyle": "#01C66C",
+    "navigationBarBackgroundColor": "#01C66C",
+    "navigationBarTitleText": "好e赔",
+    "navigationBarTextStyle": "#fff"
+  }
+}
