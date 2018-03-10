@@ -687,11 +687,12 @@ function proto_createRoom(options) {
 			heart = true;
 			pusherHeartBeat(1);
 			console.log('开始IM: ',roomInfo.roomID);
+      options.success()
 			// 进入IM群
-			webimhandler.applyJoinBigGroup(roomInfo.roomID, afterJoinBigGroup, {
-				success: options.success,
-				fail: options.fail
-			});
+			// webimhandler.applyJoinBigGroup(roomInfo.roomID, afterJoinBigGroup, {
+			// 	success: options.success,
+			// 	fail: options.fail
+			// });
 		},
 		fail: function(ret) {
 			console.log('创建后台房间失败:',ret);
@@ -834,7 +835,7 @@ function exitRoom(options) {
 	// 停止心跳
 	stopPusherHeartBeat();
 	clearRequest();
-	webimhandler.quitBigGroup();	// 退出IM大群
+	// webimhandler.quitBigGroup();	// 退出IM大群
 	if(roomInfo.isDestory) return;
 	roomInfo.isDestory = true;
 	request({
